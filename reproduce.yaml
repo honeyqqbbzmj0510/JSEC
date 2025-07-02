@@ -1,0 +1,6 @@
+datasets: ['sources', 'MSRC', 'Orl', 'BBCSport', 'Caltech101_7']
+
+parameters:
+  alpha: [1e3, 1e3, 1e3, 1e3, 1e3]
+  beta: [1e1, 1e1, 1e1, 1e1, 1e1]
+  lambda_reg: [1e1, 1e1, 1e1, 1e1, 1e1]

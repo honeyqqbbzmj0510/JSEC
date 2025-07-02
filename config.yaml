@@ -1,0 +1,7 @@
+datasets: ['Citeseer', 'Acm']
+
+
+parameters:
+  alpha: [ 1e-3, 1, 10, 50, 1e2, 3e2, 5e2, 1e3, 3e2, 8e3, 1e4 ]
+  beta: [ 1e-3, 1, 10, 50, 1e2, 3e2, 1e3, 3e2, 8e3, 1e4 ]
+  lambda_reg: [ 1e-3, 1, 10, 50, 1e2, 3e2, 1e3, 3e2, 8e3, 1e4 ]
